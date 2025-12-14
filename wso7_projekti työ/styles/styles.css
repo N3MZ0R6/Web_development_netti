@@ -7,7 +7,7 @@ body {
 p {
   font-family: "Roboto", sans-serif;
   font-size: clamp(14px, 2vw, 18px); /* Dynamic font size */
-  color: #d3d0d0;
+  color: #070707;
 }
 
 body {
@@ -88,6 +88,14 @@ h1 {
     transform: scaleY(1);
     opacity: 1;
   }
+}
+
+.text-box {
+  border: 2px solid #b59a5c;
+  background: #f3e8c8;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 12px rgba(0,0,0,0.2);
 }
 
 
