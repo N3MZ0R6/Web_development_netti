@@ -185,3 +185,50 @@ h1 {
 }
 
 
+.letter-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+}
+
+
+.letter-box {
+  width: 100%;
+  max-width: 700px;
+  min-height: 300px;
+  padding: 25px;
+
+  background: #f7f1df;
+  color: #3a2f1c;
+
+  border: 2px solid #c4b28a;
+  border-radius: 6px;
+
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+
+  resize: vertical;
+  outline: none;
+
+  box-shadow:
+    inset 0 0 15px rgba(0,0,0,0.1),
+    0 10px 25px rgba(0,0,0,0.2);
+}
+
+.letter-box:focus {
+  border-color: #9c8450;
+  box-shadow:
+    inset 0 0 20px rgba(0,0,0,0.15),
+    0 0 10px rgba(156,132,80,0.4);
+}
+
+.btn-primary {
+  background-color: #060606 !important;
+  border-color: #4a4b4e !important;
+  color: #b8b3b3 !important;
+
+  font-family: "Cinzel", serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
